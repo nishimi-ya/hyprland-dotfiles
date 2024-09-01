@@ -1,0 +1,22 @@
+* {font-family: 'JetBrains Mono';}
+
+window {
+    background-color: black;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+button {
+ border-radius: 10px;
+ margin: 5px;
+}
+
+#clock-label {
+    color: white;
+    font-size: 180px;
+    margin-bottom: 250px;
+}
+
+

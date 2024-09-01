@@ -1,0 +1,13 @@
+profile default {
+	output eDP-1 enable mode 1920x1080
+}
+
+profile monitor_extend {
+	output eDP-1 enable mode 1920x1080
+	output HDMI-A-1 enable mode 1920x1080
+}
+
+profile monitor_disable {
+	output HDMI-A-1 disable
+	output eDP-1 enable mode 1920x1080
+}

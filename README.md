@@ -1,12 +1,14 @@
-<h1 align: center> Hyprland Dotfiles</h1>
+<h1 align="center"> Hyprland Dotfiles</h1>
 
 <img src="https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/desktop.png">
 <img src="https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/wlogout.png">
 
 # Essential package
+
 ```shell
 yay -S nwg-look nwg-displays kvantummanager zen-browser-bin vesktop-bin kitty catnap-git waybar wlogout ttf-font-awesome pcmanfm ark zathura viewnior swww wofi kanshi
 ```
+
 ## Keybindings
 <div align="center">
 

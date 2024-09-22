@@ -9,6 +9,7 @@ yay -S nwg-look nwg-displays kvantummanager zen-browser-bin vesktop-bin kitty ca
 ```
 ## Keybindings
 <div align="center">
+
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>A</kbd> | Launch wofi |
@@ -34,15 +35,16 @@ yay -S nwg-look nwg-displays kvantummanager zen-browser-bin vesktop-bin kitty ca
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd> | Increase horizontal window size |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd> | Decrease horizontal window size |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Up</kbd> | Decrease vertical window size |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> <kbd>H</kbd> | Move window to left |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> <kbd>L</kbd> | Move window to right |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> <kbd>K</kbd> | Move window to up |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> <kbd>J</kbd> | Move window to down |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> + <kbd>H</kbd> | Move window to left |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> + <kbd>L</kbd> | Move window to right |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> + <kbd>K</kbd> | Move window to up |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> + <kbd>J</kbd> | Move window to down |
 | <kbd>XF86AudioRaiseVolume</kbd> | Increase volume by 5% |
 | <kbd>XF86AudioLowerVolume</kbd> | Decrease volume by 5% |
 | <kbd>XF86MonBrightnessDown</kbd> | Increase brightness by 5% |
-| <kbd>XF86MonBrightnessUp</kbd> | Decrease brightness by 5%|
+| <kbd>XF86MonBrightnessUp</kbd> | Decrease brightness by 5% |
 
 </div>
+
 ## Etc
 Most of the wallpapers are made by Atdan.

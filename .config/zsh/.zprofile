@@ -5,10 +5,10 @@
 export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | paste -sd ':')"
 
 # Default programs:
-export EDITOR="nvim"
-export FILE="ranger"
+export EDITOR="lvim"
+export FILE="yazi"
 export TERMINAL="kitty"
-export BROWSER="brave-bin"
+export BROWSER="zen-browser"
 export READER="zathura"
 
 # XDG Dirs
@@ -26,8 +26,6 @@ export WINEPREFIX="${XDG_DATA_HOME:-$HOME/.local/share}/wineprefixes/default"
 #export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
 export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
 export GOPATH="${XDG_DATA_HOME:-$HOME/.local/share}/go"
-export NNN_FIFO="/tmp/nnn.fifo"
-export NNN_PLUG='f:finder;o:fzopen;p:mocq;d:diffs;t:nmount;v:preview-tui'
 export HYPRSHOT_DIR="$HOME/Pictures/Screenshots"
 
 # Other program settings:
@@ -40,15 +38,9 @@ export LESS_TERMCAP_so="$(printf '%b' '[01;44;33m')"
 export LESS_TERMCAP_se="$(printf '%b' '[0m')"
 export LESS_TERMCAP_us="$(printf '%b' '[1;32m')"
 export LESS_TERMCAP_ue="$(printf '%b' '[0m')"
-export LESSKEY="${XDG_CONFIG_HOME:-$HOME/.config}/less/lesskey"
-export LESSOPEN="| /usr/bin/highlight -O ansi %s 2>/dev/null"
-export QT_QPA_PLATFORMTHEME="gtk2"	# Have QT use gtk2 theme.
+export QT_QPA_PLATFORM="wayland"
+export QT_QPA_PLATFORMTHEME="qt5ct:qt6ct"	# Have QT use gtk2 theme.
 export MOZ_USE_XINPUT2="1"		# Mozilla smooth scrolling/touchpads.
-export QT_QPA_PLATFORMTHEME="gtk2"	# Have QT use gtk2 theme.
-export NNN_PLUG="i:imgview;o:fzopen;w:setbg"
-export NNN_TRASH=1
-export NNN_BMS="d:~/Documents;w:~/Download;m:~/Music;r:~/Repos;v:~/Videos;p:~/Pictures;s:~/samsung"
-export NNN_ARCHIVE="\\.(7z|bz2|gz|tar|tgz|zip)$"
 
 mpd >/dev/null 2>&1 &
 

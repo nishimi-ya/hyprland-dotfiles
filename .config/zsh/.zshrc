@@ -1,5 +1,29 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
+setopt CORRECT
+setopt AUTOCD
+
+# Enable menu-style completion
+zstyle ':completion:*' menu select
+
+# Case-insensitive completion
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+
+# Completion for hidden files
+_comp_options+=(globdots)
+
+HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
+HISTSIZE="10000"
+SAVEHIST="10000"
+
+if [ -z "$HISTFILE" ]; then
+    echo "HISTFILE is not set. Please set HISTFILE to a valid path."
+else
+    if [ ! -d "$(dirname "$HISTFILE")" ]; then
+        echo "$(dirname "$HISTFILE")/ directory does not exist. Creating it now..."
+        mkdir -p "$(dirname "$HISTFILE")"
+    fi
+fi
 
 alias nvim='lvim'
 alias nue='sh ~/.config/ncmpcpp/scripts/ncmpcpp-ueberzug/ncmpcpp-ueberzug 2>/dev/null'
@@ -18,10 +42,15 @@ alias pc='yay -Sc' # remove unused cache
 alias po='yay -Qtdq | yay -Rns -' # remove unused package
 
 alias mkdir='mkdir -p'
-alias ..='cd ..'
-alias ...='cd ../..'
-alias .3='cd ../../..'
-alias .4='cd ../../../..'
-alias .5='cd ../../../../..'
+alias mkd='mkdir -p'
 
 eval "$(starship init zsh)"
+
+# Requires additional install
+source "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+source "/usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh"
+
+# Enable completion
+autoload -Uz compinit
+compinit -d "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/.zcompdump"

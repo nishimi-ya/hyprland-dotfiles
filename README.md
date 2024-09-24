@@ -1,4 +1,4 @@
-<h1 align="center"> Hyprland Dotfiles</h1>
+<h1 align="center">Hyprland Dotfiles</h1>
 
 <p align="center">
   <a href="https://github.com/xangelkawaiix/hyprland-dotfiles/stargazers"><img src="https://img.shields.io/github/stars/xangelkawaiix/hyprland-dotfiles?style=for-the-badge&logo=github" alt="GitHub stars"></a>
@@ -10,10 +10,10 @@
 
 This repository contains my personal Hyprland dotfiles, including configurations for various applications and utilities. Feel free to use and modify these dotfiles to suit your needs. Contributions and feedback are always welcome!
 
-# Essential package
+## Essential package
 
 ```shell
-yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-bin kitty catnap-git waybar wlogout ttf-font-awesome dolphin ark zathura viewnior swww wofi kanshi ttf-fira-code
+yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-bin kitty catnap-git waybar wlogout ttf-font-awesome dolphin ark zathura viewnior swww wofi kanshi ttf-fira-code hyprshot lightly-kf5-git lightly-kf6-git
 ```
 
 ## Keybindings
@@ -55,11 +55,25 @@ yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-
 
 </div>
 
+## 📸 Screenshots
+
+<div align="center">
+
 | Desktop Preview | Wlogout Preview |
 | :---: | :---: |
 | ![Desktop Preview](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/desktop.png) | ![Wlogout Preview](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/wlogout.png) |
 
+| Qt Apps Preview | 2nd Desktop Preview |
+| :---: | :---: |
+| ![Qt Apps Preview](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/qt_apps.png) | ![2nd Desktop Preview](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/desktop_2.png) |
+
 </div>
+
+## 🌟 Support Me
+
+If you like my work, consider supporting me on Trakteer.id!
+
+[![Trakteer.id](https://img.shields.io/badge/Trakteer.id-%23FFDD00?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAABJ1JREFUWIXtl01oE1EQx3/3Zie72U02m4BQqVQKpYig4EMQfCk+Gh8MPlQf+mB8MChWfCg+BB8EfDBWfAiqPlQfgg9BqVQKpVIoFKEUCgWbm81udv6Zne1lN9lsIiHi5CfZnd+8N2/mzZv3ZiYi/weZ75H5Hpnvkfke/28EwAxmMIMZzGAGM5jBDP4HMgMAM5jBDGYwgxnMYAYz+B/IDADMYAYzmMEMZjCDGfzPZAYAZjCDGcxgBjOYwQx+BzIDADOYwQxmMIMZzGAGM/gfyAwAzGAGM5jBDGYwgxn8D2QGAGYwgxnMYAYzmMEMZvA/kNkFwAxmMIMZzGAGM5jBDP4HMgMAM5jBDGYwgxnMYAYz+B/IDADMYAYzmMEMZjCDGfzPZAYAZjCDGcxgBjOYwQx+BzIDADOYwQxmMIMZzGAGM/gfyAwAzGAGM5jBDGYwgxn8D2QGAGYwgxnMYAYzmMEMZvA/kP8Bk6nY0MzHF+MAAAAASUVORK5CYII=)](https://trakteer.id/nishi.miya/tip)
 
 ## 📝 Notes
 

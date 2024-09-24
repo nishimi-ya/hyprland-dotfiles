@@ -1,12 +1,19 @@
 <h1 align="center"> Hyprland Dotfiles</h1>
 
-<img src="https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/desktop.png">
-<img src="https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/wlogout.png">
+<p align="center">
+  <a href="https://github.com/xangelkawaiix/hyprland-dotfiles/stargazers"><img src="https://img.shields.io/github/stars/xangelkawaiix/hyprland-dotfiles?style=for-the-badge&logo=github" alt="GitHub stars"></a>
+  <a href="https://github.com/xangelkawaiix/hyprland-dotfiles/network/members"><img src="https://img.shields.io/github/forks/xangelkawaiix/hyprland-dotfiles?style=for-the-badge&logo=github" alt="GitHub forks"></a>
+  <a href="https://github.com/xangelkawaiix/hyprland-dotfiles/issues"><img src="https://img.shields.io/github/issues/xangelkawaiix/hyprland-dotfiles?style=for-the-badge&logo=github" alt="GitHub issues"></a>
+</p>
+
+## 📝 Description
+
+This repository contains my personal Hyprland dotfiles, including configurations for various applications and utilities. Feel free to use and modify these dotfiles to suit your needs. Contributions and feedback are always welcome!
 
 # Essential package
 
 ```shell
-yay -S nwg-look nwg-displays kvantummanager zen-browser-bin vesktop-bin kitty catnap-git waybar wlogout ttf-font-awesome pcmanfm ark zathura viewnior swww wofi kanshi
+yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-bin kitty catnap-git waybar wlogout ttf-font-awesome dolphin ark zathura viewnior swww wofi kanshi ttf-fira-code
 ```
 
 ## Keybindings
@@ -48,5 +55,14 @@ yay -S nwg-look nwg-displays kvantummanager zen-browser-bin vesktop-bin kitty ca
 
 </div>
 
-## Etc
-Most of the wallpapers are made by Atdan.
+| Desktop Preview | Wlogout Preview |
+| :---: | :---: |
+| ![Desktop Preview](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/desktop.png) | ![Wlogout Preview](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/wlogout.png) |
+
+</div>
+
+## 📝 Notes
+
+Feel free to fork this repository and customize it to your liking. If you have any suggestions or improvements, please open an issue or submit a pull request.
+
+Happy Hyprland-ing! 🎉

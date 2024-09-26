@@ -26,7 +26,7 @@ else
 fi
 
 alias nvim='lvim'
-alias nue='sh ~/.config/ncmpcpp/scripts/ncmpcpp-ueberzug/ncmpcpp-ueberzug 2>/dev/null'
+alias nue='sh ~/.config/ncmpcpp/scripts/ncmpcpp-ueberzugpp/ncmpcpp-ueberzugpp 2>/dev/null'
 alias l='eza -lh --icons=auto'
 alias ls='eza -1 --icons=auto'
 alias ll='eza -lha --icons=auto'
@@ -45,6 +45,7 @@ alias mkdir='mkdir -p'
 alias mkd='mkdir -p'
 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
 # Requires additional install
 source "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"

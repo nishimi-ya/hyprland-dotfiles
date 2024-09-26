@@ -1,0 +1,25 @@
+sw_volume: 100
+audio_device_state:1:PipeWire
+audio_device_state:1:Toggle Visualizer
+audio_device_state:1:HTTP Stream
+state: play
+current: 0
+time: 59.265000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:犀羅 - せのび (2024) [FLAC]/01 第三新東京都市.flac
+1:犀羅 - せのび (2024) [FLAC]/02 映えない.flac
+2:犀羅 - せのび (2024) [FLAC]/03 ヘイロウ.flac
+3:犀羅 - せのび (2024) [FLAC]/04 アリババ.flac
+4:犀羅 - せのび (2024) [FLAC]/05 おなかいっぱい.flac
+5:犀羅 - せのび (2024) [FLAC]/06 level9。.flac
+6:犀羅 - せのび (2024) [FLAC]/07 RITE.flac
+7:犀羅 - せのび (2024) [FLAC]/08 第三新東京都市 ver.せうり.flac
+8:犀羅 - せのび (2024) [FLAC]/09 RITE ver.犀羅×せうり.flac
+playlist_end

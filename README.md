@@ -20,6 +20,7 @@ yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-
 ### Basic Programs
 
 <div align="center">
+  
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>Return</kbd> | Launch kitty terminal |
@@ -31,11 +32,13 @@ yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-
 | <kbd>Super</kbd> + <kbd>M</kbd> | Launch ncmpcpp in kitty |
 | <kbd>Super</kbd> + <kbd>N</kbd> | Launch newsboat in kitty |
 | <kbd>Super</kbd> + <kbd>Backspace</kbd> | Launch wlogout |
+
 </div>
 
 ### Window/Session Actions
 
 <div align="center">
+  
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>Q</kbd> | Kill active window |
@@ -43,22 +46,26 @@ yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-
 | <kbd>Super</kbd> + <kbd>P</kbd> | Toggle play/pause with playerctl |
 | <kbd>Super</kbd> + <kbd>V</kbd> | Toggle split |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> | Lock screen |
+
 </div>
 
 ### Custom Scripts
 
 <div align="center">
+  
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd> | Select wallpaper |
 | <kbd>Super</kbd> + <kbd>W</kbd> | Set wallpaper |
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>Right</kbd> | Next wallpaper |
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>Left</kbd> | Previous wallpaper |
+
 </div>
 
 ### Audio and Brightness Control
 
 <div align="center">
+
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Print</kbd> | Screenshot a window |
@@ -69,11 +76,13 @@ yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-
 | <kbd>XF86AudioMute</kbd> | Toggle mute |
 | <kbd>XF86MonBrightnessDown</kbd> | Decrease brightness by 5% |
 | <kbd>XF86MonBrightnessUp</kbd> | Increase brightness by 5% |
+
 </div>
 
 ### Focus and Resize Windows
 
 <div align="center">
+
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>H</kbd> | Move focus left |
@@ -85,11 +94,13 @@ yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd> | Resize window left |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Up</kbd> | Resize window up |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Down</kbd> | Resize window down |
+
 </div>
 
 ### Workspaces
 
 <div align="center">
+
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>1</kbd> | Switch to workspace 1 |
@@ -122,11 +133,13 @@ yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>8</kbd> | Move active window to workspace 8 silently |
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>9</kbd> | Move active window to workspace 9 silently |
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>0</kbd> | Move active window to workspace 10 silently |
+
 </div>
 
 ### Special Workspace and Mouse Bindings
 
 <div align="center">
+  
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>S</kbd> | Toggle special workspace (scratchpad) |
@@ -139,6 +152,7 @@ yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>L</kbd> | Move active window right |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>K</kbd> | Move active window up |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>J</kbd> | Move active window down |
+
 </div>
 
 ## 📸 Screenshots

@@ -17,42 +17,128 @@ yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-
 ```
 
 ## Keybindings
-<div align="center">
+### Basic Programs
 
+<div align="center">
 | Keys | Action |
 | :--- | :--- |
-| <kbd>Super</kbd> + <kbd>A</kbd> | Launch wofi |
-| <kbd>Super</kbd> + <kbd>I</kbd> | Launch Browser |
-| <kbd>Super</kbd> + <kbd>E</kbd> | Launch File Manager |
+| <kbd>Super</kbd> + <kbd>Return</kbd> | Launch kitty terminal |
+| <kbd>Super</kbd> + <kbd>D</kbd> | Launch wofi |
+| <kbd>Super</kbd> + <kbd>I</kbd> | Launch zen-browser |
+| <kbd>Super</kbd> + <kbd>E</kbd> | Launch dolphin |
+| <kbd>Super</kbd> + <kbd>T</kbd> | Launch Thunderbird |
 | <kbd>Super</kbd> + <kbd>C</kbd> | Launch VS Code |
-| <kbd>Super</kbd> + <kbd>Return</kbd> | Launch kitty|
-| <kbd>Super</kbd> + <kbd>Backspace</kbd> | Launch logout menu|
+| <kbd>Super</kbd> + <kbd>M</kbd> | Launch ncmpcpp in kitty |
+| <kbd>Super</kbd> + <kbd>N</kbd> | Launch newsboat in kitty |
+| <kbd>Super</kbd> + <kbd>Backspace</kbd> | Launch wlogout |
+</div>
+
+### Window/Session Actions
+
+<div align="center">
+| Keys | Action |
+| :--- | :--- |
 | <kbd>Super</kbd> + <kbd>Q</kbd> | Kill active window |
-| <kbd>Super</kbd> + <kbd>M</kbd> | Exit Hyprland |
 | <kbd>Super</kbd> + <kbd>B</kbd> | Toggle floating |
+| <kbd>Super</kbd> + <kbd>P</kbd> | Toggle play/pause with playerctl |
 | <kbd>Super</kbd> + <kbd>V</kbd> | Toggle split |
-| <kbd>Super</kbd> + <kbd>S</kbd> | Toggle scratchpad |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Move to scratchpad workspace |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> | Lock screen |
+</div>
+
+### Custom Scripts
+
+<div align="center">
+| Keys | Action |
+| :--- | :--- |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd> | Select wallpaper |
-| <kbd>Super</kbd> + <kbd>W</kbd> | Change random wallpaper |
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>Right</kbd> | Change next wallpaper |
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>Left</kbd> | Change previous wallpaper |
-| <kbd>Super</kbd> + <kbd>Print</kbd> | Screenshot a window |
-| <kbd>Print</kbd> | Screenshot a monitor |
-| <kbd>Shift</kbd> + <kbd>Print</kbd> | Screenshot a region |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd> | Increase horizontal window size |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd> | Decrease horizontal window size |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Up</kbd> | Decrease vertical window size |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> + <kbd>H</kbd> | Move window to left |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> + <kbd>L</kbd> | Move window to right |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> + <kbd>K</kbd> | Move window to up |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Control</kbd> + <kbd>J</kbd> | Move window to down |
+| <kbd>Super</kbd> + <kbd>W</kbd> | Set wallpaper |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>Right</kbd> | Next wallpaper |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>Left</kbd> | Previous wallpaper |
+</div>
+
+### Audio and Brightness Control
+
+<div align="center">
+| Keys | Action |
+| :--- | :--- |
+| <kbd>Print</kbd> | Screenshot a window |
+| <kbd>Shift</kbd> + <kbd>Print</kbd> | Screenshot a monitor |
+| <kbd>Ctrl</kbd> + <kbd>Print</kbd> | Screenshot a region |
 | <kbd>XF86AudioRaiseVolume</kbd> | Increase volume by 5% |
 | <kbd>XF86AudioLowerVolume</kbd> | Decrease volume by 5% |
-| <kbd>XF86MonBrightnessDown</kbd> | Increase brightness by 5% |
-| <kbd>XF86MonBrightnessUp</kbd> | Decrease brightness by 5% |
+| <kbd>XF86AudioMute</kbd> | Toggle mute |
+| <kbd>XF86MonBrightnessDown</kbd> | Decrease brightness by 5% |
+| <kbd>XF86MonBrightnessUp</kbd> | Increase brightness by 5% |
+</div>
 
+### Focus and Resize Windows
+
+<div align="center">
+| Keys | Action |
+| :--- | :--- |
+| <kbd>Super</kbd> + <kbd>H</kbd> | Move focus left |
+| <kbd>Super</kbd> + <kbd>L</kbd> | Move focus right |
+| <kbd>Super</kbd> + <kbd>K</kbd> | Move focus up |
+| <kbd>Super</kbd> + <kbd>J</kbd> | Move focus down |
+| <kbd>Alt</kbd> + <kbd>Tab</kbd> | Move focus down |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd> | Resize window right |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd> | Resize window left |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Up</kbd> | Resize window up |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Down</kbd> | Resize window down |
+</div>
+
+### Workspaces
+
+<div align="center">
+| Keys | Action |
+| :--- | :--- |
+| <kbd>Super</kbd> + <kbd>1</kbd> | Switch to workspace 1 |
+| <kbd>Super</kbd> + <kbd>2</kbd> | Switch to workspace 2 |
+| <kbd>Super</kbd> + <kbd>3</kbd> | Switch to workspace 3 |
+| <kbd>Super</kbd> + <kbd>4</kbd> | Switch to workspace 4 |
+| <kbd>Super</kbd> + <kbd>5</kbd> | Switch to workspace 5 |
+| <kbd>Super</kbd> + <kbd>6</kbd> | Switch to workspace 6 |
+| <kbd>Super</kbd> + <kbd>7</kbd> | Switch to workspace 7 |
+| <kbd>Super</kbd> + <kbd>8</kbd> | Switch to workspace 8 |
+| <kbd>Super</kbd> + <kbd>9</kbd> | Switch to workspace 9 |
+| <kbd>Super</kbd> + <kbd>0</kbd> | Switch to workspace 10 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd> | Move active window to workspace 1 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>2</kbd> | Move active window to workspace 2 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>3</kbd> | Move active window to workspace 3 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>4</kbd> | Move active window to workspace 4 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>5</kbd> | Move active window to workspace 5 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>6</kbd> | Move active window to workspace 6 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>7</kbd> | Move active window to workspace 7 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>8</kbd> | Move active window to workspace 8 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>9</kbd> | Move active window to workspace 9 |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>0</kbd> | Move active window to workspace 10 |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>1</kbd> | Move active window to workspace 1 silently |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>2</kbd> | Move active window to workspace 2 silently |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>3</kbd> | Move active window to workspace 3 silently |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>4</kbd> | Move active window to workspace 4 silently |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>5</kbd> | Move active window to workspace 5 silently |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>6</kbd> | Move active window to workspace 6 silently |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>7</kbd> | Move active window to workspace 7 silently |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>8</kbd> | Move active window to workspace 8 silently |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>9</kbd> | Move active window to workspace 9 silently |
+| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>0</kbd> | Move active window to workspace 10 silently |
+</div>
+
+### Special Workspace and Mouse Bindings
+
+<div align="center">
+| Keys | Action |
+| :--- | :--- |
+| <kbd>Super</kbd> + <kbd>S</kbd> | Toggle special workspace (scratchpad) |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Move active window to special workspace |
+| <kbd>Super</kbd> + <kbd>Mouse Down</kbd> | Switch to next workspace |
+| <kbd>Super</kbd> + <kbd>Mouse Up</kbd> | Switch to previous workspace |
+| <kbd>Super</kbd> + <kbd>Mouse Left Button</kbd> | Move window |
+| <kbd>Super</kbd> + <kbd>Mouse Right Button</kbd> | Resize window |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>H</kbd> | Move active window left |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>L</kbd> | Move active window right |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>K</kbd> | Move active window up |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>J</kbd> | Move active window down |
 </div>
 
 ## 📸 Screenshots

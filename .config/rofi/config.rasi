@@ -1,0 +1,11 @@
+/* Main Rofi Configuration */
+@theme "~/.config/rofi/launchpad.rasi"
+
+/* Additional settings */
+configuration {
+  modi: "drun,run";
+  show-icons: true;
+  kb-accept-entry: "Return";
+  kb-cancel: "Escape";
+}
+

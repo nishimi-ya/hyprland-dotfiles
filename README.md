@@ -10,17 +10,15 @@
 
 This repository contains my personal Hyprland dotfiles, including configurations for various applications and utilities. Feel free to use and modify these dotfiles to suit your needs. Contributions and feedback are always welcome!
 
-## 📸 Screenshots
+## 📸 Preview
 
 <div align="center">
+  
+https://github.com/user-attachments/assets/9f691e87-ff2d-43d7-ade0-03e297a490fa
+  
+https://github.com/user-attachments/assets/459d6c57-a225-48b1-bf0d-9d00aa94e9c7
 
-| Desktop | Wlogout |
-| :---: | :---: |
-| ![Desktop](https://files.catbox.moe/fyrlu8.mp4) | ![Wlogout](https://files.catbox.moe/4orr50.mp4) |
-
-| Qt Apps Look | Hyprlock |
-| :---: | :---: |
-| ![Qt Apps Look](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/qt_apps.png) | ![Hyprlock](https://files.catbox.moe/d4m7fi.mp4) |
+https://github.com/user-attachments/assets/fe8ddbee-4016-4952-b58c-5e86c12ca10a
 
 </div>
 

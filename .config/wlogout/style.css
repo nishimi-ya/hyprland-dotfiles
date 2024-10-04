@@ -1,81 +1,97 @@
+/*   _ _ _ __    _____ _____ _____ _____ _____ 
+    | | | |  |  |     |   __|     |  |  |_   _|
+    | | | |  |__|  |  |  |  |  |  |  | | |  
+    |_____|_____|_____|_____|_____|_____| |_|   STYLE  
+                                           
+    by Bina 
+*/
+
+
+@import './colors.css';
+
+/* general */
+* {
+  background-image: none;
+  transition: 20ms;
+  box-shadow: none;
+}
+
+/*
+  To generate blur image you do it like so:
+  magick ~/Pictures/wallpaper/gelbooru_5300099_1ae9720093ee894e99197033452ba666.jpg -blur 32x12 ~/.cache/wlogout/blurred_image.png
+  The 32x12 means a radius of 32 and a sigma of 12.
+  The blurred image will be saved in ~/.cache/wlogout directory
+*/
 
 window {
-    font-family: Fira Code Medium;
-    font-size: 16pt;
-    color: #cdd6f4; /* text */
-    background-color: rgba(30, 30, 46, 0.6);
+  background-image: image(url("../../.cache/wlogout/blurred_image.png"));
+  background-size: 100%;
 }
 
 button {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20%;
-    background-color: rgba(200, 220, 255, 0);
-    animation: gradient_f 20s ease-in infinite;
-    border-radius: 80px; /* Increased border radius for a more rounded look */
+  color: #FFFFFF;
+  background-color: @color1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  border: none;
+  border-radius: 10px;
+  outline-style: none;
+  transition: background-size 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    margin 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-button:focus {
-    background-size: 25%;
-	border: 0px;
-
-}
-
-button:hover {
-    background-color: @color12; 
-    color: #1e1e2e;
-    background-size: 50%;
-    margin: 30px;
-    border-radius: 80px; 
-    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    box-shadow: 0 0 50px @color7; 
-	
-}
-
-/* Adjust the size of the icon or content inside the button */
-button span {
-    font-size: 1.2em; /* Increase the font size */
-}
-
-
+/* options */
 #lock {
-    background-image: image(url("./icons/lock.png"));
-}
-#lock:hover {
-    background-image: image(url("./icons/lock-hover.png"));
-}
-
-#logout {
-    background-image: image(url("./icons/logout.png"));
-}
-#logout:hover {
-    background-image: image(url("./icons/logout-hover.png"));
-}
-
-#suspend {
-    background-image: image(url("./icons/sleep.png"));
-}
-#suspend:hover {
-    background-image: image(url("./icons/sleep-hover.png"));
-}
-
-#shutdown {
-    background-image: image(url("./icons/power.png"));
-}
-#shutdown:hover {
-    background-image: image(url("./icons/power-hover.png"));
+  background-color: @color1;
+  background-image: image(url("icons/lock.png"));
+  border-radius: 5px 0px 0px 0px;
+  margin: 100px 0px 0px 550px;
 }
 
 #reboot {
-    background-image: image(url("./icons/restart.png"));
-}
-#reboot:hover {
-    background-image: image(url("./icons/restart-hover.png"));
+  background-color: @color2;
+  background-image: image(url("icons/restart.png"));
+  border-radius: 0px 0px 0px 5px;
+  margin: 0px 0px 100px 550px;
 }
 
-#hibernate {
-    background-image: image(url("./icons/hibernate.png"));
+#logout {
+  background-color: @color3;
+  background-image: image(url("icons/logout.png"));
+  border-radius: 0px 5px 0px 0px;
+  margin: 100px 550px 0px 0px;
 }
-#hibernate:hover {
-    background-image: image(url("./icons/hibernate-hover.png"));
+
+#shutdown {
+  background-color: @color4;
+  background-image: image(url("icons/power.png"));
+  border-radius: 0px 0px 5px 0px;
+  margin: 0px 550px 100px 0px;
+}
+
+/* options on hover */
+button:hover {
+  background-size: 25%;
+}
+
+button:hover#lock {
+  border-radius: 10px 10px 0px 10px;
+  margin: 80px 0px 0px 530px;
+}
+
+button:hover#reboot {
+  border-radius: 10px 0px 10px 10px;
+  margin: 0px 0px 80px 530px;
+}
+
+button:hover#logout {
+  border-radius: 10px 10px 10px 0px;
+  margin: 80px 530px 0px 0px;
+}
+
+button:hover#shutdown {
+  border-radius: 0px 10px 10px 10px;
+  margin: 0px 530px 80px 0px;
 }

@@ -14,13 +14,13 @@ This repository contains my personal Hyprland dotfiles, including configurations
 
 <div align="center">
 
-| Desktop Preview | Wlogout Preview |
+| Desktop | Wlogout |
 | :---: | :---: |
-| ![Desktop Preview](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/desktop.png) | ![Wlogout Preview](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/wlogout.png) |
+| ![Desktop](https://files.catbox.moe/fyrlu8.mp4) | ![Wlogout](https://files.catbox.moe/4orr50.mp4) |
 
-| Qt Apps Preview | 2nd Desktop Preview |
+| Qt Apps Look | Hyprlock |
 | :---: | :---: |
-| ![Qt Apps Preview](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/qt_apps.png) | ![2nd Desktop Preview](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/desktop_2.png) |
+| ![Qt Apps Look](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/src/assets/qt_apps.png) | ![Hyprlock](https://files.catbox.moe/d4m7fi.mp4) |
 
 </div>
 

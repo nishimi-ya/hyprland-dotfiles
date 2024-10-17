@@ -24,7 +24,7 @@
 */
 
 window {
-  background-image: image(url("../../.cache/wlogout/blurred_image.png"));
+  background-image: image(url("../../.cache/wlogout/blur.jpg"));
   background-size: 100%;
 }
 
@@ -71,27 +71,49 @@ button {
   margin: 0px 550px 100px 0px;
 }
 
-/* options on hover */
-button:hover {
+/* options on focus */
+button:focus {
   background-size: 25%;
 }
 
-button:hover#lock {
+button:focus#lock {
   border-radius: 10px 10px 0px 10px;
   margin: 80px 0px 0px 530px;
 }
 
-button:hover#reboot {
+button:focus#reboot {
   border-radius: 10px 0px 10px 10px;
   margin: 0px 0px 80px 530px;
 }
 
-button:hover#logout {
+button:focus#logout {
   border-radius: 10px 10px 10px 0px;
   margin: 80px 530px 0px 0px;
 }
 
-button:hover#shutdown {
+button:focus#shutdown {
   border-radius: 0px 10px 10px 10px;
   margin: 0px 530px 80px 0px;
+}
+
+/* options on hover */
+button:hover {
+  background-size: 25%;
+  border-radius: 0px;
+}
+
+button:hover#lock {
+  margin: 100px 0px 0px 550px;
+}
+
+button:hover#reboot {
+  margin: 0px 0px 100px 550px;
+}
+
+button:hover#logout {
+  margin: 100px 550px 0px 0px;
+}
+
+button:hover#shutdown {
+  margin: 0px 550px 100px 0px;
 }

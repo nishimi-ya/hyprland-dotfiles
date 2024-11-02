@@ -1,9 +1,9 @@
 <h1 align="center">Hyprland Dotfiles</h1>
 
 <p align="center">
-  <a href="https://github.com/xangelkawaiix/hyprland-dotfiles/stargazers"><img src="https://img.shields.io/github/stars/xangelkawaiix/hyprland-dotfiles?style=for-the-badge&logo=github" alt="GitHub stars"></a>
-  <a href="https://github.com/xangelkawaiix/hyprland-dotfiles/network/members"><img src="https://img.shields.io/github/forks/xangelkawaiix/hyprland-dotfiles?style=for-the-badge&logo=github" alt="GitHub forks"></a>
-  <a href="https://github.com/xangelkawaiix/hyprland-dotfiles/issues"><img src="https://img.shields.io/github/issues/xangelkawaiix/hyprland-dotfiles?style=for-the-badge&logo=github" alt="GitHub issues"></a>
+  <a href="https://github.com/nishimi-ya/hyprland-dotfiles/stargazers"><img src="https://img.shields.io/github/stars/nishimi-ya/hyprland-dotfiles?style=for-the-badge&logo=github" alt="GitHub stars"></a>
+  <a href="https://github.com/nishimi-ya/hyprland-dotfiles/network/members"><img src="https://img.shields.io/github/forks/nishimi-ya/hyprland-dotfiles?style=for-the-badge&logo=github" alt="GitHub forks"></a>
+  <a href="https://github.com/nishimi-ya/hyprland-dotfiles/issues"><img src="https://img.shields.io/github/issues/nishimi-ya/hyprland-dotfiles?style=for-the-badge&logo=github" alt="GitHub issues"></a>
 </p>
 
 ## 📝 Description
@@ -76,7 +76,7 @@ yay -S nwg-look nwg-displays kvantummanager qt6ct qt5ct zen-browser-bin vesktop-
 | <kbd>XF86MonBrightnessDown</kbd> | Decrease brightness by 5% |
 | <kbd>XF86MonBrightnessUp</kbd> | Increase brightness by 5% |
 
-For complete keybindings press <kbd>Super</kbd> + <kbd>F1</kbd> or look here ![Manual](https://raw.githubusercontent.com/xangelkawaiix/hyprland-dotfiles/main/.local/share/Manual.pdf)
+For complete keybindings press <kbd>Super</kbd> + <kbd>F1</kbd> or look here ![Manual](https://raw.githubusercontent.com/nishimi-ya/hyprland-dotfiles/main/.local/share/Manual.pdf)
 
 ## 🌟 Support Me
 

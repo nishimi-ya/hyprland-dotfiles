@@ -9,9 +9,9 @@ TRANSITION_TYPE="grow"
 TRANSITION_DURATION="0.4"
 TRANSITION_POS=$(hyprctl cursorpos | grep -E '^[0-9]' || echo "0,0")
 
-# Function to get a random picture
+# Function to get a random picture from nested folders
 get_random_pic() {
-    local pics=("$1"/*)
+    local pics=($(find "$1" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \)))
     echo "${pics[RANDOM % ${#pics[@]}]}"
 }
 
@@ -19,7 +19,7 @@ get_random_pic() {
 get_next_prev_pic() {
     local direction=$1
     local current_pic=$2
-    local pics=("$DIR"/*)
+    local pics=($(find "$DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \)))
     local index=0
     local num_pics=${#pics[@]}
 

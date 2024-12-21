@@ -1,0 +1,14 @@
+[opener]
+open-image = [{ run = 'imv "$@"', orphan = true, desc = "Open Image" }] # https://git.sr.ht/~exec64/imv/
+extract = [{ run = 'dtrx "$@"', orphan = true, desc = "Extract Archive" }] # https://github.com/dtrx-py/dtrx
+pdf = [ { run = 'zathura "$@"', desc = "zathura", for = "unix" }, ]
+mpv = [ { run = 'mpv "$@"', desc = "mpv", for = "unix" }, ]
+
+[open]
+rules = [
+  { mime = "image/*", use = [ "open-image", "reveal" ] },
+  { mime = "application/zip", use = [ "extract", "reveal" ] },
+  { mime = "application/pdf", use = [ "pdf", "reveal" ] },
+  { mime = "video/*", use = [ "mpv", "reveal" ] },
+]
+
